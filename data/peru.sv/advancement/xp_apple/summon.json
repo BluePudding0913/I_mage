@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:enchanting_table"
+                      ]
+                    }
+                  },
+                  "flags": {
+                    "is_sneaking": true
+                  },
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "minecraft:apple"
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "items": [
+                          "minecraft:apple"
+                        ],
+                        "predicates": {
+                          "minecraft:custom_data": "{peru_sv_ap:true}"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "peru.sv:xp_apple/summon"
+  }
+}

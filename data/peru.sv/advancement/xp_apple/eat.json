@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{peru_sv_ap:true}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "peru.sv:xp_apple/eat"
+  }
+}

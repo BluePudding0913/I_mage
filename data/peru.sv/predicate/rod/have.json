@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:stick"
+          ],
+          "components": {
+            "minecraft:custom_data": {
+              "ib": {
+                "id": "consume"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_count",
+      "count": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "peru.sv.sc"
+      }
+    }
+  ]
+  

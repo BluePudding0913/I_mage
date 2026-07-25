@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "attack": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:book"
+                  ],
+                  "components": {
+                    "minecraft:custom_data": {
+                      "peru_sv_mb": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"peru.sv.mb\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "peru.sv:mb/r_click"
+  }
+}

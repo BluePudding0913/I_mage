@@ -1,0 +1,1 @@
+execute anchored feet positioned ^ ^ ^5 run summon lightning_bolt ~ ~ ~

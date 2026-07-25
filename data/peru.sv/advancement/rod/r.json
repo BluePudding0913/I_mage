@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stick"
+          ],
+          "components": {
+            "minecraft:custom_data": {
+              "ib": {
+                "id": "consume"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "peru.sv:rod/r_click"
+  }
+}

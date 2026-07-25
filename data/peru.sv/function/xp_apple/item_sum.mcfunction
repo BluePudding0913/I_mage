@@ -1,0 +1,7 @@
+##item_sum *@p
+
+$summon item ^ ^-0.4 ^0.8 {NoGravity:1b,Glowing:1b,Health:255,PickupDelay:30,Motion:[0.0,0.04,0.0],Item:{id:"minecraft:apple",count:1,components:{"minecraft:custom_name":{text:"XP_Apple",color:"green",italic:false},"minecraft:lore":[{text:"points:$(p)",color:"white",italic:false}],"minecraft:custom_data":{peru_sv_ap:true,peru_sv_ap_p:$(p)},"minecraft:enchantment_glint_override":true}}}
+
+#演出
+playsound entity.allay.item_thrown master @a ~ ~ ~
+particle minecraft:end_rod ^ ^-0.4 ^0.8 0.1 0.1 0.1 0 3

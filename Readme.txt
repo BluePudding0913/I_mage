@@ -1,10 +1,20 @@
 I_mage
 
-ver.1.0.0
+## Version
 
-compatible with minecraft 1.20.4
+**v2.0.0**
 
-created by peruzimoone (twitter:https://twitter.com/peruzimoone)
+## Supported Version
 
-License
-This software is released under the MIT License, see License.txt.
+* Minecraft Java Edition 26.2
+
+## Author
+
+Created by **Ano**
+
+* X / Twitter: https://twitter.com/Ano_0419
+
+## License
+
+This software is released under the MIT License.
+See [LICENSE.txt](LICENSE.txt) for details.

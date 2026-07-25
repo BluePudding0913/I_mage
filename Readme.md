@@ -1,7 +1,7 @@
-# Impact Wand
+# I_mage
 **v2.0.0**
 
-This datapack only contains the Impact Wand.
+This build only contains the Impact Wand.
 
 
 ## Supported Version

@@ -1,4 +1,4 @@
-data modify storage peru.sv: system set value {impact_xp:679,impact_rq_lvl:21,impact_power:3}
+data modify storage peru.sv: system set value {impact_xp:40,impact_rq_lvl:3,impact_power:3}
 
 kill @e[tag=peru.sv.rod.orb]
 kill @e[tag=peru.sv.rod.orb_p]

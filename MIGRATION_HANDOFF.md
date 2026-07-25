@@ -1,5 +1,7 @@
 # I_mage latest-version migration handoff
 
+NOTE (2026-07-26): I_mage has been reduced to Impact Wand only. Older sections below are historical migration notes from before the feature cleanup.
+
 ## Goal
 
 I_mage を、現在の DominoEffect データパックの形式に合わせて最新バージョン対応する。

@@ -1,8 +1,6 @@
-# Domino Effect
-**v1.1.0**
+# I_mage
+**v2.0.0**
 
-A highly optimized, vanilla-friendly chain destruction datapack for Minecraft Java Edition.
-Minecraftに一括破壊機能を追加する、シンプルで軽量なデータパックです。
 
 ## Supported Version
 

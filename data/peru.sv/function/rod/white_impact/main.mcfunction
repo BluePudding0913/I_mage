@@ -1,4 +1,4 @@
-## レーザー
+
 execute store result score @s peru.sv.lvl run data get entity @s XpLevel
 $execute if score @s peru.sv.lvl matches ..$(impact_rq_lvl) run particle minecraft:ash ~ ~1.5 ~ 0.2 0.2 0.2 5 8
 $execute if score @s peru.sv.lvl matches ..$(impact_rq_lvl) run return 0
@@ -7,7 +7,6 @@ $execute anchored feet run summon marker ^ ^ ^$(impact_power) {Tags:["peru.sv.ro
 data remove storage peru.sv: rod
 data modify storage peru.sv: rod.pos1 set from entity @s Pos
 data modify storage peru.sv: rod.pos2 set from entity @e[tag=peru.sv.rod.mk,limit=1,sort=nearest] Pos
-scoreboard objectives add peru.sv.rod_pos dummy
 execute store result score #p peru.sv.rod_pos run data get storage peru.sv: rod.pos1[0] 1000
 execute store result score #o peru.sv.rod_pos run data get storage peru.sv: rod.pos2[0] 1000
 scoreboard players operation #o peru.sv.rod_pos -= #p peru.sv.rod_pos

@@ -1,15 +1,11 @@
-scoreboard objectives remove peru.sv.sc
-scoreboard objectives remove peru.sv.tmp
-scoreboard objectives remove peru.sv.rod.mode
 scoreboard objectives remove peru.sv.lvl
-
-data remove storage peru.sv: apple
-data remove storage peru.sv: egg
-data remove storage peru.sv: tmp
-kill @e[tag=peru.sv.egg.empty]
-kill @e[tag=peru.sv.egg.filled]
-kill @e[tag=peru.sv.egg.got]
-kill @e[tag=peru.sv.egg.spawn]
-kill @e[tag=peru.sv.rod]
+scoreboard objectives remove peru.sv.rod_pos
 scoreboard objectives remove peru.sv.uninstall
-tellraw @a "I_mage was uninstalled."
+
+data remove storage peru.sv: system
+data remove storage peru.sv: rod
+kill @e[tag=peru.sv.rod.orb]
+kill @e[tag=peru.sv.rod.orb_p]
+kill @e[tag=peru.sv.rod.mk]
+
+tellraw @a "Impact Wand was uninstalled."

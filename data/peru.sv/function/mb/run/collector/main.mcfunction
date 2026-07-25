@@ -1,1 +1,0 @@
-execute anchored eyes positioned ^ ^ ^10 run tp @e[type=item,distance=..10] @s

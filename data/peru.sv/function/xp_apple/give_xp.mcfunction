@@ -1,1 +1,0 @@
-$xp add @s $(p) points
